@@ -31,7 +31,7 @@ body {
     text-align: center;
     position: relative;
     z-index: 2;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -59,10 +59,10 @@ body {
 .profile-name {
     position: absolute;
     top: 10px;
-    left: 10px;
-    font-size: 12px; /* 文字を小さく */
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    right: 10px;
+    font-size: 14px; /* 文字を小さく */
+    color: #33a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     margin: 0;
     background: #fff; /* 白背景 */
     border-radius: 5px; /* 角丸 */
@@ -74,8 +74,8 @@ body {
     bottom: 10px;
     left: 10px;
     font-size: 12px; /* 文字を小さく */
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #33a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     margin: 0;
     background: #fff; /* 白背景 */
     border-radius: 5px; /* 角丸 */
@@ -84,7 +84,9 @@ body {
 
 .profile-description {
     font-size: 16px;
-    color: #555;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: #333;
     margin: 20px 0;
 }
 
@@ -98,7 +100,8 @@ body {
 
 .links h2, .live-streams h2 {
     font-size: 20px;
-    color: #333;
+    color: #22a;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     margin: 10px 0;
     text-align: left; /* 見出しを左揃え */
 }
@@ -153,6 +156,12 @@ body {
     font-size: 18px;
     margin: 0 0 5px 0;
     color: #333;
+}
+
+.link-content h4 {
+    font-size: 12px;
+    margin: 0;
+    color: #666;
 }
 
 .link-content p {
