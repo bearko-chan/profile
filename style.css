@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 背景オーバーレイ */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+/* コンテナ */
+.container {
+    max-width: 900px; /* サムネイルが300pxの場合、幅を増やす */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* プロフィール画像とテキスト */
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.profile-image {
+    width: 400px; /* 画像を大きく */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px; /* 文字を小さく */
+    color: #33a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    background: #fff; /* 白背景 */
+    border-radius: 5px; /* 角丸 */
+    padding: 2px 5px; /* 内マージン */
+}
+
+.profile-origin {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px; /* 文字を小さく */
+    color: #33a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    background: #fff; /* 白背景 */
+    border-radius: 5px; /* 角丸 */
+    padding: 2px 5px; /* 内マージン */
+}
+
+.profile-description {
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+/* リンクセクションとライブ配信セクション */
+.links, .live-streams {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.links h2, .live-streams h2 {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px 0;
+    text-align: left; /* 見出しを左揃え */
+}
+
+.link-button {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #ddd;
+}
+
+.link-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.link-icon {
+    width: 40px;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.live-stream-button {
+    display: flex;
+    flex-direction: column; /* 垂直配置 */
+    align-items: flex-start; /* 左揃え */
+    text-align: left; /* 左揃え */
+    padding: 15px;
+}
+
+.stream-thumbnail {
+    width: 300px; /* サムネイルを維持 */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 10px 0; /* 上下に間隔 */
+}
+
+.link-content {
+    width: 100%; /* 全文を収める */
+    text-align: left; /* 左揃え */
+}
+
+.link-content h3 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.link-content h4 {
+    font-size: 12px;
+    margin: 0;
+    color: #666;
+}
+
+.link-content p {
+    font-size: 14px;
+    margin: 0;
+    color: #666;
+    word-wrap: break-word; /* 長いテキストを折り返し */
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+    .profile-image {
+        width: 250px; /* スマホではやや小さく */
+    }
+
+    .profile-name {
+        font-size: 10px; /* スマホでさらに小さく */
+        top: 5px;
+        left: 5px;
+        padding: 1px 3px;
+    }
+
+    .profile-origin {
+        font-size: 10px; /* スマホでさらに小さく */
+        bottom: 5px;
+        left: 5px;
+        padding: 1px 3px;
+    }
+
+    .container {
+        padding: 10px;
+        max-width: 100%; /* スマホでは幅をフルに */
+    }
+
+    .link-button {
+        padding: 10px;
+    }
+
+    .link-icon {
+        width: 30px;
+        font-size: 20px;
+    }
+
+    .live-stream-button {
+        padding: 10px;
+    }
+
+    .stream-thumbnail {
+        width: 150px; /* スマホでは縮小 */
+    }
+
+    .link-content h3 {
+        font-size: 16px;
+    }
+
+    .link-content p {
+        font-size: 12px;
+    }
+}
