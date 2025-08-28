@@ -109,7 +109,7 @@ body {
 .link-button {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.8);
     color: #333;
     padding: 15px;
     border-radius: 10px;
