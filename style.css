@@ -42,7 +42,7 @@ body {
 .profile-image-container {
     position: relative;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
 }
 
 .profile-image {
@@ -83,10 +83,8 @@ body {
 }
 
 .profile-description {
-    font-size: 16px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-    color: #333;
+    font-size: 14px;
+    color: #fff;
     margin: 20px 0;
 }
 
@@ -99,7 +97,7 @@ body {
 }
 
 .links h2, .live-streams h2 {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin: 10px 0;
