@@ -36,7 +36,17 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+/* スケジュール画像 */
+.schedule-image {
+    width: 500px; /* 画像を大きく */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    display: block;
+    margin: 0 auto;
+}
 
 /* プロフィール画像とテキスト */
 .profile-image-container {
@@ -181,6 +191,10 @@ h2.schedule-title {
 
 /* レスポンシブ対応 */
 @media (max-width: 600px) {
+    .schedule-image {
+        width: 350px; /* スマホではやや小さく */
+    }
+
     .profile-image {
         width: 250px; /* スマホではやや小さく */
     }
