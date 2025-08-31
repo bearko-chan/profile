@@ -169,6 +169,16 @@ body {
     word-wrap: break-word; /* 長いテキストを折り返し */
 }
 
+h2.schedule-title {
+    font-family: 'Playfair Display', serif; /* おしゃれな英文字フォント */
+    color: #ffffff; /* 文字色を白に */
+    font-size: 1.0em; /* フォントサイズを適度に大きく */
+    text-align: center; /* 中央揃え */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 軽い影で立体感 */
+    margin: 20px 0; /* 上下の余白 */
+    letter-spacing: 1px; /* 文字間隔を少し広げる */
+}
+
 /* レスポンシブ対応 */
 @media (max-width: 600px) {
     .profile-image {
