@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat; /* 繰り返しなし */
   background-attachment: fixed; /* スクロールに追従 */
   background-color: #f5e6f0; /* 保険として背景色 */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
