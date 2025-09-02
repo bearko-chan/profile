@@ -195,8 +195,9 @@ h2.schedule-title {
 /* レスポンシブ対応 */
 @media screen and (max-width: 767px) {
   body {
-    background-size: cover; /* 画像を画面にフィット */
-    background-position: center top; /* 上部を基準に */
+    background-size: contain; /* 画像全体を画面に収める */
+    background-position: top center; /* 画像の上部を基準に表示 */
+    background-repeat: repeat-y; /* 縦方向に繰り返す（必要に応じて） */
     background-attachment: scroll; /* スクロールに追従（fixedの代替） */
     min-height: -webkit-fill-available; /* Safari対応 */
     min-height: -moz-available; /* Firefox対応 */
