@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-    display: flex;
+  margin: 0; /* デフォルトのマージンを削除 */
+  padding: 0; /* デフォルトのパディングを削除 */
+  min-height: 100vh; /* ビューポートの高さを最低限確保 */
+  background-image: url('https://images.pexels.com/photos/5894166/pexels-photo-5894166.jpeg');
+  background-size: cover; /* 画像を画面にフィット */
+  background-position: center; /* 中央に配置 */
+  background-repeat: no-repeat; /* 繰り返しなし */
+  background-attachment: fixed; /* スクロールに追従 */
+  background-color: #f5e6f0; /* 保険として背景色 */
     justify-content: center;
     align-items: center;
 }
@@ -193,9 +194,12 @@ h2.schedule-title {
 /* レスポンシブ対応 */
 @media screen and (max-width: 767px) {
   body {
-    background-size: contain; /* 画像全体を画面に収める */
-    background-position: top center; /* 画像の上部を基準に表示 */
-    background-repeat: repeat-y; /* 縦方向に繰り返す（必要に応じて） */
+    background-size: cover; /* 画像を画面にフィット */
+    background-position: center top; /* 上部を基準に */
+    background-attachment: scroll; /* スクロールに追従（fixedの代替） */
+    min-height: -webkit-fill-available; /* Safari対応 */
+    min-height: -moz-available; /* Firefox対応 */
+    min-height: fill-available; /* 標準 */
   }
 }
 
