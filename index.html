@@ -1,1 +1,414 @@
-エラー: YouTube APIとの通信に失敗しました。(HTTP Code: 0)
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>べあこ Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('assets/magical_stars.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <!-- プロフィールセクション -->
+        <div class="profile">
+            <div class="profile-image-container">
+                <img src="assets/profile.jpg" alt="Profile Image" class="profile-image">
+                <h1 class="profile-name">べあこ</h1>
+                <p class="profile-origin">🌍️アルゴル星系パルマ出身</p>
+            </div>
+            <p class="profile-description">
+                👾レトロゲームが大好きなVTuberべあこです🐻🍯<br>                🕹懐かしいゲームで遊んだり🎮 お修理したり🛠<br>                📺そんな様子を配信したり🎥 呟いたり📝<br>                🎥配信(ほぼ毎日夜9時) 🔰おゲームは万年初心者☺️✨            </p>
+        </div>
+        <!-- リンクセクション -->
+        <div class="links">
+                            <a href="https://x.com/bearko_chan" class="link-button" target="_blank">
+                    <div class="link-icon">
+                        <i class="fab fa-x-twitter"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>べあこ</h3>
+                        <p>懐かしいゲームの話題を日々呟いています👾</p>
+                    </div>
+                </a>
+                            <a href="https://www.youtube.com/channel/UCR7fTsLwun2H9IZ8Sfs1JBQ" class="link-button" target="_blank">
+                    <div class="link-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>べあこちゃんねる</h3>
+                        <p>毎日夜9時配信! おゲームは万年初心者レベル🔰</p>
+                    </div>
+                </a>
+            
+            <!-- 検索窓 -->
+            <form action="https://www.youtube.com/channel/UCR7fTsLwun2H9IZ8Sfs1JBQ/search" method="get">
+                <input type="text" name="query" placeholder="べあこちゃんねるの動画を検索" style="width: 300px; padding: 5px;">
+                <button type="submit" style="padding: 5px;">検索</button>
+            </form>
+
+        </div>
+        <!-- 今週のスケジュール -->
+        <!-- 
+        <div class="profile">
+            <div class="profile-image-container">
+                <img src="schedule.png" alt="Weekly Schedule" class="schedule-image">
+            </div>
+        </div>
+        -->
+
+        <!-- (今後の配信予定)ライブ配信セクション -->
+                                                
+        <!-- (配信アーカイブ)ライブ配信セクション -->
+        <div class="live-streams">
+            <h2>配信アーカイブ (最新20件)</h2>
+                            <a href="https://www.youtube.com/watch?v=VzodDsRIzZQ" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>LUNAR シルバースターストーリー MPEG版 - ツインオペレータ搭載セガサターンで遊ぼう! (その19)</h3>
+                        <h4>2026年07月29日(水) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/VzodDsRIzZQ/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>探し求めていた「青竜の神殿」がついに眼前に!! じっくり探索していこう〜
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=VzodDsRIzZQ" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=6_-NQ3D8g9k" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>【実践編】PS3・VITAストア終了に備えよう〜 みんなのオススメ大募</h3>
+                        <h4>2026年07月27日(月) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/6_-NQ3D8g9k/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>終了まであと1年を切った「PS3・VITAストア」。これまでのまとめを元に今回はいろんな作品を買って、遊んでみましょう〜
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=6_-NQ3D8g9k" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=IkVa5dqqvV8" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>イヴ・バーストエラーで遊ぼう! (セガサターン版) PART.6</h3>
+                        <h4>2026年07月25日(土) 21時00分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/IkVa5dqqvV8/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>謎多き居候が増えたよッ その名も「プリン」。どうも偽名っぽいのだけど… ともあれ男やもめの探偵事務所に紅一点、家事もいろいろしてくれるとのことですし…
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=IkVa5dqqvV8" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=i7dp_Zmgi5U" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>イヴ・バーストエラーで遊ぼう! (セガサターン版) PART.5</h3>
+                        <h4>2026年07月23日(木) 21時00分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/i7dp_Zmgi5U/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>法条まりな視点でのプレイも新たにスタート!! 要人護衛……!? というには可愛らしすぎるあの娘をガードする華麗なミッションに挑め!!
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=i7dp_Zmgi5U" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=UPg-jGRvdEw" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>バーチャルボーイで遊ぼう!!</h3>
+                        <h4>2026年07月20日(月) 21時26分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/UPg-jGRvdEw/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>数々の任天堂ゲーム史の中でも特有の存在感を放つ「バーチャルボーイ」。映像の外部出力化が出来たのでゆるっと遊ぼう〜
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=UPg-jGRvdEw" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=JHvlw9uGMJg" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>【後編】PS3・VITAストア終了に備えよう〜 みんなのオススメ大募集</h3>
+                        <h4>2026年07月15日(水) 21時02分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/JHvlw9uGMJg/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>2027年7月に終了が告知された「PS3・VITAストア」。PS3,2,1,PSP,VITAがテーマの前編に引き続き、後編では「PCエンジンアーカイブス」のお話をしていきましょう〜。みんなのオススメ教えてねっ!
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=JHvlw9uGMJg" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=-cVXnaH-h3M" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>【前編】PS3・VITAストア終了に備えよう〜 みんなのオススメ大募集</h3>
+                        <h4>2026年07月12日(日) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/-cVXnaH-h3M/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>始まりがあれば終りがある。20年余のサービス期間にいよいよ終わりの時がッ……。お得なDL作品を求めて皆で「オススメソフト」を相談しよう〜 前編ではPS3,2,1,PSP,VITAがテーマ! PCエンジンアーカイブスは後編にて
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=-cVXnaH-h3M" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=Z7tPrBfq1sE" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>LUNAR シルバースターストーリー MPEG版 - ツインオペレータ搭載セガサターンで遊ぼう! (その18)</h3>
+                        <h4>2026年07月10日(金) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/Z7tPrBfq1sE/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>リトンの村から! 青竜の洞窟を探そう〜!!
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=Z7tPrBfq1sE" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=0oNAqGlgwJs" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>世間で大流行と聞いたので…「リズム天国」で遊ぼう!! (ゲームボーイアドバンス版)</h3>
+                        <h4>2026年07月08日(水) 21時00分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/0oNAqGlgwJs/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>そこかしこでリズム天国が大ブーム!! ちょっと遊んでみましょう〜!! えっ リズム天国と言えば「ゲームボーイアドバンス」じゃないのッ!? ニンテンドースイッチ2!? えっ エエッ…
+
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=0oNAqGlgwJs" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=JwHcCo7SLxU" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>イヴ・バーストエラーで遊ぼう! (セガサターン版) PART.4</h3>
+                        <h4>2026年07月06日(月) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/JwHcCo7SLxU/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>埠頭の事務所裏で金髪の●●を救出したよ! ん……どう見ても●●なのですが…… むむむ! 謎がどんどん増すばかり。図書館デートもしなくちゃ!
+
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=JwHcCo7SLxU" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=7-TxjX8mM8k" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>【登頂成功】蒼天の白き神の座 GREAT PEAK 〜 ダウラチェンリ峰を目指して (Attack 10)</h3>
+                        <h4>2026年07月02日(木) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/7-TxjX8mM8k/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>度重なる不運、撤退の憂き目にも負けず、未踏峰「ダウラチェンリ」への更なる挑戦!! 隊員の経験量も増えたはず、あとは良き天候を願いつつ〜
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=7-TxjX8mM8k" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=sjmcbRw41vk" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>イヴ・バーストエラーで遊ぼう! (セガサターン版) PART.3</h3>
+                        <h4>2026年06月30日(火) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/sjmcbRw41vk/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>絵画創作の依頼人 孔。謎が多そうな彼の勤務先が判明したぞ! 図書館のお姉さんとのアポもあるし、今夜は話がぐーんと進みそう!
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=sjmcbRw41vk" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=s_QJGKwmgu8" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>怒涛の残機でグラディウスⅢ (スーパーファミコン版)</h3>
+                        <h4>2026年06月28日(日) 21時00分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/s_QJGKwmgu8/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>お久しぶりのスーパーファミコン! グラディウスⅢで遊びましょう〜 秘密のコマンドはタイトルで「左+A(x3)」!!
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=s_QJGKwmgu8" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=oTzQl5FmJdI" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>LUNAR シルバースターストーリー MPEG版 - ツインオペレータ搭載セガサターンで遊ぼう! (その17)</h3>
+                        <h4>2026年06月25日(木) 21時00分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/oTzQl5FmJdI/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>赤竜の洞窟探索の続きから〜! レベリングをしっかりと!!
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=oTzQl5FmJdI" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=UfXSP9XJtEE" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>【完結】時の継承者 ファンタシースターⅢで遊ぼう!! (第35回)</h3>
+                        <h4>2026年06月23日(火) 21時12分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/UfXSP9XJtEE/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>全ての物語が帰結しようとしている雰囲気ッ… 今夜いよいよクライマックス!? それともまだまだ!?
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=UfXSP9XJtEE" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=vgg2UAlb1G0" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>フェリオスで遊ぼう!! (アーケードアーカイブス版)</h3>
+                        <h4>2026年06月21日(日) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/vgg2UAlb1G0/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>メガドライブ版は何度か遊んでいるけど、AC版は当時ちょっぴり遊んだくらい。MD版とどう違うのかなッ 王女アルテミスを救うのだ〜!!
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=vgg2UAlb1G0" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=lewuZ2n4aDk" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>イヴ・バーストエラーで遊ぼう! (セガサターン版) PART.2</h3>
+                        <h4>2026年06月20日(土) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/lewuZ2n4aDk/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>さしたる依頼もない探偵事務所に突如舞い込む「怪しげなオーダー」。紛失した絵画に潜む陰謀とは!? 
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=lewuZ2n4aDk" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=xcdaSNM2QXc" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>LUNAR シルバースターストーリー MPEG版 - ツインオペレータ搭載セガサターンで遊ぼう! (その16)</h3>
+                        <h4>2026年06月19日(金) 21時01分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/xcdaSNM2QXc/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>畑の中に住まう「ぷわぷわ虫」を捕まえろ〜!! とてつもなく逃げ足が速いゾ
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=xcdaSNM2QXc" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=7KeFeaW_tWQ" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>【19時開始。20:45終了】ミリしらストライダー飛竜 (メガドライブ版) PART.5</h3>
+                        <h4>2026年06月16日(火) 19時00分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/7KeFeaW_tWQ/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>お久しぶりのストライダー飛竜! ハマり箇所が決まっているので、しっかり克服していきたい〜!! 
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=7KeFeaW_tWQ" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                            <a href="https://www.youtube.com/watch?v=A0Sbkcx2BmI" class="link-button live-stream-button" target="_blank">
+                    <div class="link-content">
+                        <h3>【重大告知あり】スペースハリアーで遊ぼう!(ファミコン版)</h3>
+                        <h4>2026年06月14日(日) 20時00分 [アーカイブ]</h4>
+                    </div>
+                    <div class="link-icon">
+                        <img src="https://i.ytimg.com/vi/A0Sbkcx2BmI/maxresdefault.jpg" alt="Thumbnail" class="stream-thumbnail">
+                    </div>
+                    <div class="link-content">
+                        <p>当チャンネル始まって以来の重大告知!? えっ……どんなお知らせなの〜!? (ドキドキ) それまでの時間はファミコン版 スペースハリアーを遊んでみましょう〜 
+
+</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/live_chat?is_popout=1&amp;v=A0Sbkcx2BmI" class="chat-popout-link" target="_blank" onclick="event.stopPropagation();">
+                    <i class="fas fa-comment-dots"></i> チャット欄を開く
+                </a>
+                    </div>
+
+    </div>
+</body>
+</html>
